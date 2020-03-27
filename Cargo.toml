@@ -1,0 +1,12 @@
+[package]
+name = "algorythm_rust"
+version = "0.1.0"
+authors = ["liqargon <liqargon@hanarchy.biz>"]
+edition = "2018"
+default-run = "union_find"
+[dependencies]
+
+
+[[bin]]
+name = "union_find"
+path = "src/union_find.rs"
